@@ -1,0 +1,2 @@
+fastqc_config:
+    fastqc_theoretical_gc: 'hg38_txome'

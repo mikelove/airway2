@@ -1,0 +1,12 @@
+{
+    "salmon_version": "0.8.2",
+    "threads": "6",
+    "libType": "A",
+    "gcBias": [],
+    "biasSpeedSamp": "5",
+    "index": "gencode.v27_salmon_0.8.2",
+    "mates1": "fastq/SRR1039520_1.fastq.gz",
+    "mates2": "fastq/SRR1039520_2.fastq.gz",
+    "output": "quants/SRR1039520",
+    "auxDir": "aux_info"
+}

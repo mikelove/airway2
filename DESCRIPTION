@@ -1,0 +1,7 @@
+Package: airway2
+Title: Salmon quantification for the airway dataset
+Version: 0.0.1
+Author: Michael Love
+Maintainer: Michael Love <michaelisaiahlove@gmail.com>
+Description: Salmon quantification for the airway dataset
+License: MIT
