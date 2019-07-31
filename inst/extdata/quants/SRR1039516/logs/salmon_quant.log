@@ -1,46 +1,62 @@
-[2018-03-08 21:31:53.931] [jointLog] [info] parsing read library format
-[2018-03-08 21:31:53.931] [jointLog] [info] There is 1 library.
-[2018-03-08 21:31:54.016] [jointLog] [info] Loading Quasi index
-[2018-03-08 21:31:54.017] [jointLog] [info] Loading 32-bit quasi index
-[2018-03-08 21:32:02.898] [jointLog] [info] done
-[2018-03-08 21:32:02.898] [jointLog] [info] Index contained 200401 targets
-[2018-03-08 21:32:05.320] [jointLog] [info] Automatically detected most likely library type as IU
-[2018-03-08 21:34:15.895] [jointLog] [info] Computed 337381 rich equivalence classes for further processing
-[2018-03-08 21:34:15.895] [jointLog] [info] Counted 25474658 total reads in the equivalence classes 
-[2018-03-08 21:34:15.914] [jointLog] [info] Mapping rate = 93.3173%
+[2019-07-30 17:47:23.482] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2019-07-30 17:47:23.482] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2019-07-30 17:47:23.482] [jointLog] [info] Usage of --validateMappings, without --hardFilter implies use of range factorization. rangeFactorizationBins is being set to 4
+[2019-07-30 17:47:23.482] [jointLog] [info] Usage of --validateMappings implies a default consensus slack of 0.2. Setting consensusSlack to 0.2.
+[2019-07-30 17:47:23.482] [jointLog] [info] parsing read library format
+[2019-07-30 17:47:23.482] [jointLog] [info] There is 1 library.
+[2019-07-30 17:47:23.592] [jointLog] [info] Loading Quasi index
+[2019-07-30 17:47:23.608] [jointLog] [info] Loading 32-bit quasi index
+[2019-07-30 17:47:37.440] [jointLog] [info] done
+[2019-07-30 17:47:37.443] [jointLog] [info] Index contained 205,870 targets
+[2019-07-30 17:47:42.066] [jointLog] [info] Automatically detected most likely library type as IU
+[2019-07-30 17:52:16.831] [jointLog] [info] Computed 530,033 rich equivalence classes for further processing
+[2019-07-30 17:52:16.831] [jointLog] [info] Counted 25,268,618 total reads in the equivalence classes 
+[2019-07-30 17:52:16.851] [jointLog] [info] Number of mappings discarded because of alignment score : 1,069,522
+[2019-07-30 17:52:16.851] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 301,987
+[2019-07-30 17:52:16.851] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2019-07-30 17:52:16.851] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings : 93,550
+[2019-07-30 17:52:16.851] [jointLog] [info] Mapping rate = 92.5625%
 
-[2018-03-08 21:34:15.914] [jointLog] [info] finished quantifyLibrary()
-[2018-03-08 21:34:15.932] [jointLog] [info] Starting optimizer
-[2018-03-08 21:34:15.897] [fileLog] [info] 
+[2019-07-30 17:52:16.851] [jointLog] [info] finished quantifyLibrary()
+[2019-07-30 17:52:16.859] [jointLog] [info] Starting optimizer
+[2019-07-30 17:52:16.831] [fileLog] [info] 
 At end of round 0
 ==================
 Observed 27298970 total fragments (27298970 in most recent round)
 
-[2018-03-08 21:34:16.249] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
-[2018-03-08 21:34:16.296] [jointLog] [info] iteration = 0 | max rel diff. = 57.9564
-[2018-03-08 21:34:16.651] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
-[2018-03-08 21:35:58.495] [jointLog] [info] Computed expected counts (for bias correction)
-[2018-03-08 21:35:58.495] [jointLog] [info] processed bias for 0.0% of the transcripts
-[2018-03-08 21:36:09.495] [jointLog] [info] processed bias for 10.0% of the transcripts
-[2018-03-08 21:36:19.508] [jointLog] [info] processed bias for 20.0% of the transcripts
-[2018-03-08 21:36:29.717] [jointLog] [info] processed bias for 30.0% of the transcripts
-[2018-03-08 21:36:39.751] [jointLog] [info] processed bias for 40.0% of the transcripts
-[2018-03-08 21:36:50.556] [jointLog] [info] processed bias for 50.0% of the transcripts
-[2018-03-08 21:37:01.668] [jointLog] [info] processed bias for 60.0% of the transcripts
-[2018-03-08 21:37:12.445] [jointLog] [info] processed bias for 70.0% of the transcripts
-[2018-03-08 21:37:14.948] [jointLog] [info] processed bias for 100.0% of the transcripts
-[2018-03-08 21:37:18.702] [jointLog] [info] iteration = 100 | max rel diff. = 0.322451
-[2018-03-08 21:37:22.537] [jointLog] [info] iteration = 200 | max rel diff. = 0.28014
-[2018-03-08 21:37:25.876] [jointLog] [info] iteration = 300 | max rel diff. = 0.0791613
-[2018-03-08 21:37:29.067] [jointLog] [info] iteration = 400 | max rel diff. = 0.0368436
-[2018-03-08 21:37:32.584] [jointLog] [info] iteration = 500 | max rel diff. = 0.0312393
-[2018-03-08 21:37:35.876] [jointLog] [info] iteration = 600 | max rel diff. = 0.0238068
-[2018-03-08 21:37:39.353] [jointLog] [info] iteration = 700 | max rel diff. = 0.0309287
-[2018-03-08 21:37:43.066] [jointLog] [info] iteration = 800 | max rel diff. = 0.0221913
-[2018-03-08 21:37:46.726] [jointLog] [info] iteration = 900 | max rel diff. = 0.0191303
-[2018-03-08 21:37:50.126] [jointLog] [info] iteration = 1000 | max rel diff. = 0.01288
-[2018-03-08 21:37:53.525] [jointLog] [info] iteration = 1100 | max rel diff. = 0.0110624
-[2018-03-08 21:37:56.162] [jointLog] [info] iteration = 1173 | max rel diff. = 0.00988364
-[2018-03-08 21:37:56.171] [jointLog] [info] Finished optimizer
-[2018-03-08 21:37:56.171] [jointLog] [info] writing output 
+[2019-07-30 17:52:17.262] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2019-07-30 17:52:17.328] [jointLog] [info] iteration = 0 | max rel diff. = 6052.93
+[2019-07-30 17:52:17.982] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2019-07-30 17:54:24.645] [jointLog] [info] Computed expected counts (for bias correction)
+[2019-07-30 17:54:24.645] [jointLog] [info] processed bias for 0.0% of the transcripts
+[2019-07-30 17:54:44.542] [jointLog] [info] processed bias for 10.0% of the transcripts
+[2019-07-30 17:55:05.322] [jointLog] [info] processed bias for 20.0% of the transcripts
+[2019-07-30 17:55:22.758] [jointLog] [info] processed bias for 30.0% of the transcripts
+[2019-07-30 17:55:42.418] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2019-07-30 17:56:04.078] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2019-07-30 17:56:13.264] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2019-07-30 17:56:19.654] [jointLog] [info] iteration = 100 | max rel diff. = 19.5107
+[2019-07-30 17:56:26.764] [jointLog] [info] iteration = 200 | max rel diff. = 16.2275
+[2019-07-30 17:56:33.528] [jointLog] [info] iteration = 300 | max rel diff. = 4.28181
+[2019-07-30 17:56:41.334] [jointLog] [info] iteration = 400 | max rel diff. = 5.27833
+[2019-07-30 17:56:49.435] [jointLog] [info] iteration = 500 | max rel diff. = 5.03542
+[2019-07-30 17:56:58.158] [jointLog] [info] iteration = 600 | max rel diff. = 0.146963
+[2019-07-30 17:57:07.067] [jointLog] [info] iteration = 700 | max rel diff. = 0.68797
+[2019-07-30 17:57:13.181] [jointLog] [info] iteration = 800 | max rel diff. = 1.50966
+[2019-07-30 17:57:19.240] [jointLog] [info] iteration = 900 | max rel diff. = 0.220353
+[2019-07-30 17:57:25.113] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.14276
+[2019-07-30 17:57:30.696] [jointLog] [info] iteration = 1,100 | max rel diff. = 1.94365
+[2019-07-30 17:57:36.241] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.422396
+[2019-07-30 17:57:43.539] [jointLog] [info] iteration = 1,300 | max rel diff. = 1.73625
+[2019-07-30 17:57:49.013] [jointLog] [info] iteration = 1,400 | max rel diff. = 0.0669507
+[2019-07-30 17:57:54.017] [jointLog] [info] iteration = 1,500 | max rel diff. = 0.670077
+[2019-07-30 17:58:00.044] [jointLog] [info] iteration = 1,600 | max rel diff. = 0.0675908
+[2019-07-30 17:58:06.211] [jointLog] [info] iteration = 1,700 | max rel diff. = 0.0132205
+[2019-07-30 17:58:12.564] [jointLog] [info] iteration = 1,800 | max rel diff. = 0.798872
+[2019-07-30 17:58:18.499] [jointLog] [info] iteration = 1,900 | max rel diff. = 0.0560811
+[2019-07-30 17:58:20.018] [jointLog] [info] iteration = 1,920 | max rel diff. = 0.0073251
+[2019-07-30 17:58:20.044] [jointLog] [info] Finished optimizer
+[2019-07-30 17:58:20.044] [jointLog] [info] writing output 
 
+[2019-07-30 17:58:20.689] [jointLog] [info] Starting Gibbs Sampler
+[2019-07-30 17:59:19.564] [jointLog] [info] Finished Gibbs Sampler
